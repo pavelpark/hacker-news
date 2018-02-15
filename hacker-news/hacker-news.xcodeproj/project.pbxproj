@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB43DB45203613CF0024E7A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB43DB44203613CF0024E7A3 /* AppDelegate.swift */; };
+		DB43DB47203613CF0024E7A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB43DB46203613CF0024E7A3 /* ViewController.swift */; };
+		DB43DB4A203613CF0024E7A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB43DB48203613CF0024E7A3 /* Main.storyboard */; };
+		DB43DB4C203613CF0024E7A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB43DB4B203613CF0024E7A3 /* Assets.xcassets */; };
+		DB43DB4F203613CF0024E7A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB43DB4D203613CF0024E7A3 /* LaunchScreen.storyboard */; };
+		DB43DB5A203613CF0024E7A3 /* hacker_newsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB43DB59203613CF0024E7A3 /* hacker_newsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB43DB56203613CF0024E7A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB43DB39203613CF0024E7A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB43DB40203613CF0024E7A3;
+			remoteInfo = "hacker-news";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB43DB41203613CF0024E7A3 /* hacker-news.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hacker-news.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB43DB44203613CF0024E7A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB43DB46203613CF0024E7A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB43DB49203613CF0024E7A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB43DB4B203613CF0024E7A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB43DB4E203613CF0024E7A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB43DB50203613CF0024E7A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB43DB55203613CF0024E7A3 /* hacker-newsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hacker-newsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB43DB59203613CF0024E7A3 /* hacker_newsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hacker_newsTests.swift; sourceTree = "<group>"; };
+		DB43DB5B203613CF0024E7A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB43DB3E203613CF0024E7A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB43DB52203613CF0024E7A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB43DB38203613CF0024E7A3 = {
+			isa = PBXGroup;
+			children = (
+				DB43DB43203613CF0024E7A3 /* hacker-news */,
+				DB43DB58203613CF0024E7A3 /* hacker-newsTests */,
+				DB43DB42203613CF0024E7A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB43DB42203613CF0024E7A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB43DB41203613CF0024E7A3 /* hacker-news.app */,
+				DB43DB55203613CF0024E7A3 /* hacker-newsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB43DB43203613CF0024E7A3 /* hacker-news */ = {
+			isa = PBXGroup;
+			children = (
+				DB43DB662036144B0024E7A3 /* Model */,
+				DB43DB65203614390024E7A3 /* View */,
+				DB43DB64203614220024E7A3 /* Controller */,
+				DB43DB50203613CF0024E7A3 /* Info.plist */,
+			);
+			path = "hacker-news";
+			sourceTree = "<group>";
+		};
+		DB43DB58203613CF0024E7A3 /* hacker-newsTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB43DB59203613CF0024E7A3 /* hacker_newsTests.swift */,
+				DB43DB5B203613CF0024E7A3 /* Info.plist */,
+			);
+			path = "hacker-newsTests";
+			sourceTree = "<group>";
+		};
+		DB43DB64203614220024E7A3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DB43DB46203613CF0024E7A3 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DB43DB65203614390024E7A3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DB43DB48203613CF0024E7A3 /* Main.storyboard */,
+				DB43DB4B203613CF0024E7A3 /* Assets.xcassets */,
+				DB43DB4D203613CF0024E7A3 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DB43DB662036144B0024E7A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB43DB44203613CF0024E7A3 /* AppDelegate.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB43DB40203613CF0024E7A3 /* hacker-news */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB43DB5E203613CF0024E7A3 /* Build configuration list for PBXNativeTarget "hacker-news" */;
+			buildPhases = (
+				DB43DB3D203613CF0024E7A3 /* Sources */,
+				DB43DB3E203613CF0024E7A3 /* Frameworks */,
+				DB43DB3F203613CF0024E7A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hacker-news";
+			productName = "hacker-news";
+			productReference = DB43DB41203613CF0024E7A3 /* hacker-news.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB43DB54203613CF0024E7A3 /* hacker-newsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB43DB61203613CF0024E7A3 /* Build configuration list for PBXNativeTarget "hacker-newsTests" */;
+			buildPhases = (
+				DB43DB51203613CF0024E7A3 /* Sources */,
+				DB43DB52203613CF0024E7A3 /* Frameworks */,
+				DB43DB53203613CF0024E7A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB43DB57203613CF0024E7A3 /* PBXTargetDependency */,
+			);
+			name = "hacker-newsTests";
+			productName = "hacker-newsTests";
+			productReference = DB43DB55203613CF0024E7A3 /* hacker-newsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB43DB39203613CF0024E7A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Pavel Parkhomey";
+				TargetAttributes = {
+					DB43DB40203613CF0024E7A3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					DB43DB54203613CF0024E7A3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB43DB40203613CF0024E7A3;
+					};
+				};
+			};
+			buildConfigurationList = DB43DB3C203613CF0024E7A3 /* Build configuration list for PBXProject "hacker-news" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB43DB38203613CF0024E7A3;
+			productRefGroup = DB43DB42203613CF0024E7A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB43DB40203613CF0024E7A3 /* hacker-news */,
+				DB43DB54203613CF0024E7A3 /* hacker-newsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB43DB3F203613CF0024E7A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB43DB4F203613CF0024E7A3 /* LaunchScreen.storyboard in Resources */,
+				DB43DB4C203613CF0024E7A3 /* Assets.xcassets in Resources */,
+				DB43DB4A203613CF0024E7A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB43DB53203613CF0024E7A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB43DB3D203613CF0024E7A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB43DB47203613CF0024E7A3 /* ViewController.swift in Sources */,
+				DB43DB45203613CF0024E7A3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB43DB51203613CF0024E7A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB43DB5A203613CF0024E7A3 /* hacker_newsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB43DB57203613CF0024E7A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB43DB40203613CF0024E7A3 /* hacker-news */;
+			targetProxy = DB43DB56203613CF0024E7A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB43DB48203613CF0024E7A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB43DB49203613CF0024E7A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB43DB4D203613CF0024E7A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB43DB4E203613CF0024E7A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB43DB5C203613CF0024E7A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB43DB5D203613CF0024E7A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB43DB5F203613CF0024E7A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6X88V8MC7R;
+				INFOPLIST_FILE = "hacker-news/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.project.hacker-news";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB43DB60203613CF0024E7A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6X88V8MC7R;
+				INFOPLIST_FILE = "hacker-news/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.project.hacker-news";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB43DB62203613CF0024E7A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6X88V8MC7R;
+				INFOPLIST_FILE = "hacker-newsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.project.hacker-newsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hacker-news.app/hacker-news";
+			};
+			name = Debug;
+		};
+		DB43DB63203613CF0024E7A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6X88V8MC7R;
+				INFOPLIST_FILE = "hacker-newsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.project.hacker-newsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hacker-news.app/hacker-news";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB43DB3C203613CF0024E7A3 /* Build configuration list for PBXProject "hacker-news" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB43DB5C203613CF0024E7A3 /* Debug */,
+				DB43DB5D203613CF0024E7A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB43DB5E203613CF0024E7A3 /* Build configuration list for PBXNativeTarget "hacker-news" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB43DB5F203613CF0024E7A3 /* Debug */,
+				DB43DB60203613CF0024E7A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB43DB61203613CF0024E7A3 /* Build configuration list for PBXNativeTarget "hacker-newsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB43DB62203613CF0024E7A3 /* Debug */,
+				DB43DB63203613CF0024E7A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB43DB39203613CF0024E7A3 /* Project object */;
+}
