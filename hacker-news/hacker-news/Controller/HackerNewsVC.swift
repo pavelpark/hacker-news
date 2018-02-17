@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HackerNewsVC.swift
 //  hacker-news
 //
 //  Created by Pavel Parkhomey on 2/15/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HackerNewsVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
