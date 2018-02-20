@@ -17,6 +17,7 @@
 		DB43DB5A203613CF0024E7A3 /* hacker_newsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB43DB59203613CF0024E7A3 /* hacker_newsTests.swift */; };
 		DB43DB682036305D0024E7A3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB43DB672036305D0024E7A3 /* GoogleService-Info.plist */; };
 		DB43DB6A20380DFF0024E7A3 /* HackerCommentsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB43DB6920380DFF0024E7A3 /* HackerCommentsVC.swift */; };
+		DB43DB6F203CED260024E7A3 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB43DB6E203CED260024E7A3 /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,9 @@
 		DB43DB5B203613CF0024E7A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB43DB672036305D0024E7A3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DB43DB6920380DFF0024E7A3 /* HackerCommentsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerCommentsVC.swift; sourceTree = "<group>"; };
+		DB43DB6C203CED250024E7A3 /* hacker-news-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hacker-news-Bridging-Header.h"; sourceTree = "<group>"; };
+		DB43DB6D203CED260024E7A3 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		DB43DB6E203CED260024E7A3 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		F41573C092D3A61D0EBCB3E3 /* Pods-hacker-newsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hacker-newsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hacker-newsTests/Pods-hacker-newsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FA919EEF588294CEF5847BA8 /* Pods_hacker_newsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hacker_newsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -113,6 +117,7 @@
 		DB43DB43203613CF0024E7A3 /* hacker-news */ = {
 			isa = PBXGroup;
 			children = (
+				DB43DB6B203CEC180024E7A3 /* Supporting Files */,
 				DB43DB662036144B0024E7A3 /* Model */,
 				DB43DB65203614390024E7A3 /* View */,
 				DB43DB64203614220024E7A3 /* Controller */,
@@ -156,6 +161,16 @@
 				DB43DB44203613CF0024E7A3 /* AppDelegate.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		DB43DB6B203CEC180024E7A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB43DB6D203CED260024E7A3 /* SWRevealViewController.h */,
+				DB43DB6E203CED260024E7A3 /* SWRevealViewController.m */,
+				DB43DB6C203CED250024E7A3 /* hacker-news-Bridging-Header.h */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +229,7 @@
 				TargetAttributes = {
 					DB43DB40203613CF0024E7A3 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					DB43DB54203613CF0024E7A3 = {
@@ -375,6 +391,7 @@
 				DB43DB47203613CF0024E7A3 /* HackerNewsVC.swift in Sources */,
 				DB43DB45203613CF0024E7A3 /* AppDelegate.swift in Sources */,
 				DB43DB6A20380DFF0024E7A3 /* HackerCommentsVC.swift in Sources */,
+				DB43DB6F203CED260024E7A3 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,12 +545,15 @@
 			baseConfigurationReference = 5DA84C0841E42C8DF14CEA7D /* Pods-hacker-news.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6X88V8MC7R;
 				INFOPLIST_FILE = "hacker-news/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.project.hacker-news";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "hacker-news/Supporting Files/hacker-news-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -544,12 +564,14 @@
 			baseConfigurationReference = 4693FC1A9DE6D7DA65A29B7A /* Pods-hacker-news.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6X88V8MC7R;
 				INFOPLIST_FILE = "hacker-news/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.project.hacker-news";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "hacker-news/Supporting Files/hacker-news-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

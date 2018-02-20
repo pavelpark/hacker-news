@@ -8,8 +8,8 @@
 
 import UIKit
 
-class HackerNewsVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    
+class HackerNewsVC: UIViewController {
+//    UITableViewDelegate, UITableViewDataSource
     
 
     // Outlets
@@ -24,15 +24,15 @@ class HackerNewsVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    func numberOfSections(in tableView: UITableView) -> Int {
-        
-    }
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
-    }
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
-    }
+//    func numberOfSections(in tableView: UITableView) -> Int {
+//
+//    }
+//    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+//
+//    }
+//    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+//
+//    }
 
 }
 
