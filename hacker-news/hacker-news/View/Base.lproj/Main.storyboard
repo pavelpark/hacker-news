@@ -39,8 +39,28 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Pw-78-Khu">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="77"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MbP-GW-N9B">
+                                        <rect key="frame" x="12" y="47" width="24" height="18"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="24" id="Aye-Q0-ccj"/>
+                                            <constraint firstAttribute="height" constant="18" id="uzX-cP-eVV"/>
+                                        </constraints>
+                                        <state key="normal" image="menuBurger"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hacker News" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gl7-0j-skg">
+                                        <rect key="frame" x="136.5" y="45.5" width="101.5" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" red="1" green="0.65959386697777778" blue="0.3429904513888889" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstItem="gl7-0j-skg" firstAttribute="centerX" secondItem="4Pw-78-Khu" secondAttribute="centerX" id="DfG-tF-uzZ"/>
+                                    <constraint firstAttribute="bottom" secondItem="MbP-GW-N9B" secondAttribute="bottom" constant="12" id="I7y-p9-Ui7"/>
+                                    <constraint firstItem="gl7-0j-skg" firstAttribute="centerY" secondItem="MbP-GW-N9B" secondAttribute="centerY" id="Ivz-IW-hcn"/>
+                                    <constraint firstItem="MbP-GW-N9B" firstAttribute="leading" secondItem="4Pw-78-Khu" secondAttribute="leading" constant="12" id="piI-N3-MgX"/>
                                     <constraint firstAttribute="height" constant="77" id="wIg-Yc-mFa"/>
                                 </constraints>
                             </view>
@@ -53,6 +73,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="4Ss-13-FFq"/>
                     </view>
+                    <connections>
+                        <outlet property="menuBtn" destination="MbP-GW-N9B" id="Sv5-fy-gk1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SKh-5j-wSH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -148,4 +171,7 @@
             <point key="canvasLocation" x="1962" y="-151"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="menuBurger" width="40" height="40"/>
+    </resources>
 </document>
