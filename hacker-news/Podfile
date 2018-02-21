@@ -8,6 +8,8 @@ target 'hacker-news' do
   # Pods for hacker-news
 
   pod 'Firebase/Core'
+  pod 'Alamofire'
+  pod 'SwiftyJSON'
 
 
   target 'hacker-newsTests' do
