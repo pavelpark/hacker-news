@@ -13,7 +13,7 @@ class HackerCommentsVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.revealViewController().rearViewRevealWidth = self.view.frame.size.width - 205
+        self.revealViewController().rearViewRevealWidth = self.view.frame.size.width - 200
     }
 
 
