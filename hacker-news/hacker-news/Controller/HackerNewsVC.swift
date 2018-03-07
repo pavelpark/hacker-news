@@ -21,6 +21,13 @@ class HackerNewsVC: UIViewController {
         self.view.addGestureRecognizer(self.revealViewController().tapGestureRecognizer())
         // Do any additional setup after loading the view.
     }
+    
+    func parseData() {
+        
+        let url = "https://news.ycombinator.com/newest"
+        var request = URLRequest(url: URL(string: url)!)
+        request.httpMethod = "GET"
+    }
 
     
 }
