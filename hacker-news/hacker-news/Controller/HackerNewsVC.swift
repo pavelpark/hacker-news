@@ -24,9 +24,28 @@ class HackerNewsVC: UIViewController {
     
     func parseData() {
         
-        let url = "https://news.ycombinator.com/newest"
+        let url = "https://news.ycombinator.com/newest" // Make sure to find right link to get JSON from...
         var request = URLRequest(url: URL(string: url)!)
         request.httpMethod = "GET"
+        
+        let configuration = URLSessionConfiguration.default
+        let session = URLSession(configuration: configuration, delegate: nil, delegateQueue: OperationQueue.main)
+        
+        let task = session.dataTask(with: request) { (data, response, error) in
+        
+            if (error != nil) {
+                print("Error parsing out the data.")
+            } else {
+                do {
+                    let fetchData = try JSONSerialization.jsonObject(with: data!, options: .mutableLeaves) as! NSArray
+                    print(fetchData)
+                }
+                catch {
+                    print("Error catching")
+                }
+            }
+        }
+        task.resume()
     }
 
     
