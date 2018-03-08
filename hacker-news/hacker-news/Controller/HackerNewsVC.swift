@@ -24,7 +24,7 @@ class HackerNewsVC: UIViewController {
     
     func parseData() {
         
-        let url = "https://news.ycombinator.com/newest" // Make sure to find right link to get JSON from...
+        let url = "https://hacker-news.firebaseio.com/v0/" // Make sure to find right link to get JSON from...
         var request = URLRequest(url: URL(string: url)!)
         request.httpMethod = "GET"
         
