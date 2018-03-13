@@ -170,35 +170,38 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Comments" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MvV-1U-WJ8">
-                                <rect key="frame" x="34" y="90" width="94" height="23"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="43Z-8i-xhe">
+                                <rect key="frame" x="34" y="90" width="94" height="35"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Show" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ArQ-dk-fup">
-                                <rect key="frame" x="34" y="133" width="49" height="23"/>
+                                <state key="normal" title="Comments">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NU1-R4-D8A">
+                                <rect key="frame" x="34" y="145" width="49" height="35"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jobs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FQt-wX-JuC">
-                                <rect key="frame" x="34" y="176" width="42" height="23"/>
+                                <state key="normal" title="Show">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lwm-f7-ypP">
+                                <rect key="frame" x="34" y="200" width="42" height="35"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <state key="normal" title="Jobs">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="FQt-wX-JuC" firstAttribute="leading" secondItem="8CD-Px-QEp" secondAttribute="leading" constant="34" id="GqV-UD-bH0"/>
-                            <constraint firstItem="FQt-wX-JuC" firstAttribute="top" secondItem="ArQ-dk-fup" secondAttribute="bottom" constant="20" id="OJE-gc-w2Z"/>
-                            <constraint firstItem="MvV-1U-WJ8" firstAttribute="top" secondItem="aSK-Vx-5Ic" secondAttribute="bottom" constant="20" id="PR2-Sf-6wI"/>
+                            <constraint firstItem="lwm-f7-ypP" firstAttribute="leading" secondItem="8CD-Px-QEp" secondAttribute="leading" constant="34" id="GlE-Ye-VPW"/>
+                            <constraint firstItem="NU1-R4-D8A" firstAttribute="top" secondItem="43Z-8i-xhe" secondAttribute="bottom" constant="20" id="O5O-Z5-m9s"/>
+                            <constraint firstItem="NU1-R4-D8A" firstAttribute="leading" secondItem="8CD-Px-QEp" secondAttribute="leading" constant="34" id="Q20-mE-wV2"/>
+                            <constraint firstItem="43Z-8i-xhe" firstAttribute="leading" secondItem="8CD-Px-QEp" secondAttribute="leading" constant="34" id="Rz1-3q-Gqa"/>
                             <constraint firstItem="aSK-Vx-5Ic" firstAttribute="leading" secondItem="8CD-Px-QEp" secondAttribute="leading" constant="34" id="awE-AH-E6g"/>
-                            <constraint firstItem="ArQ-dk-fup" firstAttribute="leading" secondItem="8CD-Px-QEp" secondAttribute="leading" constant="34" id="mEA-ie-tQW"/>
                             <constraint firstItem="aSK-Vx-5Ic" firstAttribute="top" secondItem="8CD-Px-QEp" secondAttribute="top" constant="24" id="pd2-9u-fMF"/>
-                            <constraint firstItem="ArQ-dk-fup" firstAttribute="top" secondItem="MvV-1U-WJ8" secondAttribute="bottom" constant="20" id="vZw-8H-k6f"/>
-                            <constraint firstItem="MvV-1U-WJ8" firstAttribute="leading" secondItem="8CD-Px-QEp" secondAttribute="leading" constant="34" id="vmd-TV-Ulx"/>
+                            <constraint firstItem="43Z-8i-xhe" firstAttribute="top" secondItem="aSK-Vx-5Ic" secondAttribute="bottom" constant="20" id="vGh-zR-Khb"/>
+                            <constraint firstItem="lwm-f7-ypP" firstAttribute="top" secondItem="NU1-R4-D8A" secondAttribute="bottom" constant="20" id="ymQ-Co-1st"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="8CD-Px-QEp"/>
                     </view>
