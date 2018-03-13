@@ -148,7 +148,31 @@
                     <view key="view" contentMode="scaleToFill" id="usq-sc-LD0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aNg-IH-ocZ" customClass="GradientView" customModule="hacker_news" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="20" width="375" height="77"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jobs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Yg-Oq-Zl8">
+                                        <rect key="frame" x="163" y="44" width="49" height="26"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="22"/>
+                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.659593867" blue="0.34299045140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="77" id="Daz-um-uc2"/>
+                                    <constraint firstItem="1Yg-Oq-Zl8" firstAttribute="top" secondItem="aNg-IH-ocZ" secondAttribute="top" constant="44" id="HSN-S5-nhX"/>
+                                    <constraint firstItem="1Yg-Oq-Zl8" firstAttribute="centerX" secondItem="aNg-IH-ocZ" secondAttribute="centerX" id="dnM-FW-U6g"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="aNg-IH-ocZ" firstAttribute="leading" secondItem="6sY-um-bJc" secondAttribute="leading" id="4yD-8t-lRF"/>
+                            <constraint firstAttribute="trailing" secondItem="aNg-IH-ocZ" secondAttribute="trailing" id="FLB-to-dXI"/>
+                            <constraint firstItem="aNg-IH-ocZ" firstAttribute="top" secondItem="6sY-um-bJc" secondAttribute="top" id="V0s-w8-MU3"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6sY-um-bJc"/>
                     </view>
                 </viewController>
@@ -226,7 +250,31 @@
                     <view key="view" contentMode="scaleToFill" id="8xv-u4-zib">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UvU-0o-zCN" customClass="GradientView" customModule="hacker_news" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="77"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Show" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VO4-9v-SoJ">
+                                        <rect key="frame" x="160" y="44" width="56" height="26"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="22"/>
+                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.659593867" blue="0.34299045140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="77" id="HDb-D3-cTU"/>
+                                    <constraint firstItem="VO4-9v-SoJ" firstAttribute="centerX" secondItem="UvU-0o-zCN" secondAttribute="centerX" id="MQQ-Tt-Zmx"/>
+                                    <constraint firstItem="VO4-9v-SoJ" firstAttribute="top" secondItem="UvU-0o-zCN" secondAttribute="top" constant="44" id="yBI-uO-RZv"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="UvU-0o-zCN" firstAttribute="top" secondItem="8xv-u4-zib" secondAttribute="top" id="9cQ-4x-CQh"/>
+                            <constraint firstItem="UvU-0o-zCN" firstAttribute="leading" secondItem="Ana-7W-mr3" secondAttribute="leading" id="G3N-gp-Hom"/>
+                            <constraint firstItem="UvU-0o-zCN" firstAttribute="trailing" secondItem="Ana-7W-mr3" secondAttribute="trailing" id="sPo-Yt-9w3"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Ana-7W-mr3"/>
                     </view>
                 </viewController>
@@ -241,13 +289,37 @@
                     <view key="view" contentMode="scaleToFill" id="PWp-rh-t5w">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uEF-d3-heZ" customClass="GradientView" customModule="hacker_news" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="77"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Comments" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C5b-kg-AtN">
+                                        <rect key="frame" x="133" y="44" width="109" height="26"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="22"/>
+                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.659593867" blue="0.34299045140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="77" id="DFy-9h-FMW"/>
+                                    <constraint firstItem="C5b-kg-AtN" firstAttribute="centerX" secondItem="uEF-d3-heZ" secondAttribute="centerX" id="dkf-KS-V7H"/>
+                                    <constraint firstItem="C5b-kg-AtN" firstAttribute="top" secondItem="uEF-d3-heZ" secondAttribute="top" constant="44" id="oGP-jZ-glp"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="uEF-d3-heZ" firstAttribute="top" secondItem="PWp-rh-t5w" secondAttribute="top" id="WP1-xD-Ma4"/>
+                            <constraint firstItem="uEF-d3-heZ" firstAttribute="leading" secondItem="zR1-Nr-4te" secondAttribute="leading" id="fm9-HY-Gb8"/>
+                            <constraint firstItem="uEF-d3-heZ" firstAttribute="trailing" secondItem="zR1-Nr-4te" secondAttribute="trailing" id="jlQ-PG-oAt"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="zR1-Nr-4te"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vy4-ac-Sau" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1948" y="-1676"/>
+            <point key="canvasLocation" x="1948" y="-1675"/>
         </scene>
     </scenes>
     <resources>
