@@ -32,7 +32,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="94" y="-48"/>
+            <point key="canvasLocation" x="-650" y="-166"/>
         </scene>
         <!--Hacker NewsVC-->
         <scene sceneID="MJS-uk-XHH">
@@ -139,7 +139,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SKh-5j-wSH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="965.60000000000002" y="327.88605697151428"/>
+            <point key="canvasLocation" x="657" y="235"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="UcW-Sp-bFM">
@@ -154,7 +154,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jix-DD-F7G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1948" y="442"/>
+            <point key="canvasLocation" x="1948" y="234"/>
         </scene>
         <!--Hacker CommentsVC-->
         <scene sceneID="bpV-Yb-0PU">
@@ -176,6 +176,9 @@
                                 <state key="normal" title="Comments">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="wrU-Ej-E6a" kind="show" id="PX0-7o-a9S"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NU1-R4-D8A">
                                 <rect key="frame" x="34" y="145" width="49" height="35"/>
@@ -183,6 +186,9 @@
                                 <state key="normal" title="Show">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="wU1-EU-Lmc" kind="show" id="cBT-a2-2Kx"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lwm-f7-ypP">
                                 <rect key="frame" x="34" y="200" width="42" height="35"/>
@@ -190,6 +196,9 @@
                                 <state key="normal" title="Jobs">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="5SX-Il-UC8" kind="show" id="9kl-Yi-e8k"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -208,7 +217,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YHo-Hd-eoA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="965.60000000000002" y="-383.65817091454278"/>
+            <point key="canvasLocation" x="658" y="-710"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="kKj-o1-PiQ">
@@ -223,7 +232,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dfB-S8-iwF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1948" y="-352"/>
+            <point key="canvasLocation" x="1948" y="-710"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Qaw-mV-XDI">
@@ -238,7 +247,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vy4-ac-Sau" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1948" y="-1096"/>
+            <point key="canvasLocation" x="1948" y="-1676"/>
         </scene>
     </scenes>
     <resources>
