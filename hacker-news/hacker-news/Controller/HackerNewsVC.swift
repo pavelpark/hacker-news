@@ -15,6 +15,8 @@ class HackerNewsVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        parseData() // Focuse on why the data is not being parsed through.
 
         menuBtn.addTarget(self.revealViewController(), action: #selector(SWRevealViewController.revealToggle(_:)), for: .touchUpInside)
         self.view.addGestureRecognizer(revealViewController().panGestureRecognizer())
