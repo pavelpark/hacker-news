@@ -141,10 +141,10 @@
             </objects>
             <point key="canvasLocation" x="657" y="235"/>
         </scene>
-        <!--View Controller-->
+        <!--JobsVC-->
         <scene sceneID="UcW-Sp-bFM">
             <objects>
-                <viewController id="5SX-Il-UC8" sceneMemberID="viewController">
+                <viewController id="5SX-Il-UC8" customClass="JobsVC" customModule="hacker_news" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="usq-sc-LD0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -248,10 +248,10 @@
             </objects>
             <point key="canvasLocation" x="658" y="-710"/>
         </scene>
-        <!--View Controller-->
+        <!--ShowVC-->
         <scene sceneID="kKj-o1-PiQ">
             <objects>
-                <viewController id="wU1-EU-Lmc" sceneMemberID="viewController">
+                <viewController id="wU1-EU-Lmc" customClass="ShowVC" customModule="hacker_news" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8xv-u4-zib">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -292,10 +292,10 @@
             </objects>
             <point key="canvasLocation" x="1948" y="-710"/>
         </scene>
-        <!--View Controller-->
+        <!--Hacker CommentsVC-->
         <scene sceneID="Qaw-mV-XDI">
             <objects>
-                <viewController id="wrU-Ej-E6a" sceneMemberID="viewController">
+                <viewController id="wrU-Ej-E6a" customClass="HackerCommentsVC" customModule="hacker_news" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PWp-rh-t5w">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -334,7 +334,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vy4-ac-Sau" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1948" y="-1675.4122938530736"/>
+            <point key="canvasLocation" x="1948" y="-1675"/>
         </scene>
     </scenes>
     <resources>

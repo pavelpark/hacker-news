@@ -19,6 +19,8 @@
 		DB43DB6F203CED260024E7A3 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB43DB6E203CED260024E7A3 /* SWRevealViewController.m */; };
 		DBCB1495203E22A200E5ECE0 /* HackerNewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCB1494203E22A200E5ECE0 /* HackerNewsVC.swift */; };
 		DBCB14972047D6AC00E5ECE0 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCB14962047D6AC00E5ECE0 /* GradientView.swift */; };
+		DBCB149A2064733F00E5ECE0 /* ShowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCB14992064733F00E5ECE0 /* ShowVC.swift */; };
+		DBCB149C2064735C00E5ECE0 /* JobsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCB149B2064735C00E5ECE0 /* JobsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		DB43DB6E203CED260024E7A3 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		DBCB1494203E22A200E5ECE0 /* HackerNewsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackerNewsVC.swift; sourceTree = "<group>"; };
 		DBCB14962047D6AC00E5ECE0 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		DBCB14992064733F00E5ECE0 /* ShowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowVC.swift; sourceTree = "<group>"; };
+		DBCB149B2064735C00E5ECE0 /* JobsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsVC.swift; sourceTree = "<group>"; };
 		F41573C092D3A61D0EBCB3E3 /* Pods-hacker-newsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hacker-newsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hacker-newsTests/Pods-hacker-newsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FA919EEF588294CEF5847BA8 /* Pods_hacker_newsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hacker_newsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -143,6 +147,8 @@
 			children = (
 				DBCB1494203E22A200E5ECE0 /* HackerNewsVC.swift */,
 				DB43DB6920380DFF0024E7A3 /* HackerCommentsVC.swift */,
+				DBCB14992064733F00E5ECE0 /* ShowVC.swift */,
+				DBCB149B2064735C00E5ECE0 /* JobsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -406,7 +412,9 @@
 				DB43DB45203613CF0024E7A3 /* AppDelegate.swift in Sources */,
 				DBCB1495203E22A200E5ECE0 /* HackerNewsVC.swift in Sources */,
 				DBCB14972047D6AC00E5ECE0 /* GradientView.swift in Sources */,
+				DBCB149A2064733F00E5ECE0 /* ShowVC.swift in Sources */,
 				DB43DB6A20380DFF0024E7A3 /* HackerCommentsVC.swift in Sources */,
+				DBCB149C2064735C00E5ECE0 /* JobsVC.swift in Sources */,
 				DB43DB6F203CED260024E7A3 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
